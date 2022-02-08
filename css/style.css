@@ -203,6 +203,13 @@ ul, ol {
   max-width: 500px;
 }
 
+h2,
+a {
+  color:beige;
+  font-style: oblique;
+  text-decoration: none;
+}
+
 /* Start: Video Responsive */
 .video-responsive {
   overflow:hidden;
