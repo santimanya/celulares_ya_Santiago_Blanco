@@ -39,11 +39,8 @@
   font-style: oblique;
   text-align: center;
   align-items: center;
-  
-  
   justify-content:space-evenly;
-  
-  
+   
 }
 .contenedor .contenido {
   background-image: linear-gradient(to left, rgb(127, 235, 211), rgb(23, 4, 75));
@@ -56,6 +53,21 @@
   justify-content: center;
   text-align: center;
   
+  
+}
+
+.contenedor .contenido2 {
+  background-image: linear-gradient(to left, rgb(127, 235, 211), rgb(23, 4, 75));
+  grid-area: contenido;
+  background-color: rgb(111, 112, 33);
+  
+  color: rgb(0, 0, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  justify-content: center !important; 
+  text-align: center;
+  
+ 
   
 }
 .contenedor .lateral {
@@ -87,7 +99,7 @@
   color: rgb(0, 0, 0);
   height: 40px;
   text-align: center;
-  display: flex;
+  display:inline-flex;
   align-items: center;
   justify-content: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -328,6 +340,10 @@ a {
 	
 }
 
+.pie2{
+  margin-top: 20px;
+}
+
 @keyframes whats {             
   0% {
     width: 10px;
@@ -373,7 +389,8 @@ h1{
   }
   
  }
-
+ 
+ 
 
 
         
