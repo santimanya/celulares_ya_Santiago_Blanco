@@ -210,7 +210,8 @@ ol {
 	li {
 		&:hover {
 			>ul {
-				display: block;
+				display:block;
+        
 			}
 		}
 	}
@@ -473,6 +474,7 @@ h1{
   @extend .btn-primary;
 }
 
+
 /* media query para Celular responsive */    
 @media screen and (max-width: 480px ) {
   .contenedor {
@@ -544,6 +546,7 @@ h1{
         }
       }
 
+     
       .contenido {
         .parametroPosition2 {
           display: none;
